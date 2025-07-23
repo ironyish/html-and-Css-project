@@ -1,0 +1,227 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+
+  
+
+}
+.nav-brand{
+    float: left;
+}
+.nav-list{
+    display: flex;
+    float: right;
+}
+
+.nav-item{
+    margin: 10px;
+    list-style-type:none;
+    
+}
+
+.nav-link{
+    text-decoration: none;
+}
+.container{
+    margin-left: 10px;
+    /* width: 1000px; */
+    /* margin-left: 10px; */
+}
+.navbar{
+    margin-top: 20px;
+}
+
+.row{
+    display: grid;
+    
+}
+.col-1{
+    margin-top: 35px;
+    grid-row: 1;
+    grid-column: 1;
+    padding: 25px;
+}
+.col-2{
+    grid-row: 1;
+    grid-column: 2;
+    padding: 25px;
+    
+}
+.col-2{
+    display: grid;
+    margin-top: 23px;
+   
+}
+.col-3{
+    grid-row: 1;
+    grid-column: 1;
+    margin: 13px;
+}
+.col-4{
+    grid-row: 1;
+    grid-column: 2;
+    margin: 13px;
+
+}
+.col-5{
+    grid-row: 2;
+    grid-column: 1;
+    margin: 13px;
+
+}
+.col-6{
+    grid-row: 2;
+    grid-column: 2;
+    margin: 13px;
+
+}
+
+h4{
+    position:absolute;
+    z-index: 2;
+    top: 400px;
+}
+.col-1 span{
+    border-color: white;
+    /* background-color: aliceblue; */
+    border-style:none;
+    z-index: 1;
+    position: absolute;
+    top: 500px;
+    padding: 5px;
+    margin-left: 20px;
+    color: white;
+}
+.banner{
+    margin-top: 45px;
+    /* margin-left: 10px; */
+    border-bottom: 5px dotted grey;
+}
+
+.mens-row{
+    display: grid;
+    border-bottom: 5px dotted grey;
+    margin: 20px;
+    margin-top: 10px;
+
+}
+
+.card-1{
+    grid-row: 1;
+    grid-column: 1;
+    padding: 20px;
+
+
+}
+.card-2{
+    grid-row: 1;
+    grid-column: 2;
+    padding: 20px;
+
+}
+.card-3{
+    grid-row: 1;
+    grid-column: 3;
+    padding: 20px;
+
+}
+
+.men-heading{
+    font-size:20px;
+}
+.men-heading p{
+    font-style: italic;
+    color: gray;
+}
+
+.womens-row{
+    display: grid;
+    /* border-bottom: 5px dotted grey; */
+    margin: 20px;
+    margin-top: 10px;
+
+}
+
+.card-1{
+    grid-row: 1;
+    grid-column: 1;
+    padding: 20px;
+
+
+}
+.card-2{
+    grid-row: 1;
+    grid-column: 2;
+    padding: 20px;
+
+}
+.card-3{
+    grid-row: 1;
+    grid-column: 3;
+    padding: 20px;
+
+}
+
+.women-heading{
+    font-size:20px;
+}
+.women-heading p{
+    font-style: italic;
+    color: gray;
+}
+
+.text{
+    border-color: black;
+    padding: 5px;
+    margin: 10px;
+}
+.email{
+    border-color: black;
+    padding: 5px;
+    margin: 10px;
+}
+
+/* .footer1{
+    display:grid;
+    float: left;
+}
+.footer2{
+    display: grid;
+    float: left;
+} */
+.foot{
+    display: flex;
+
+
+    
+}
+.info{
+     grid-row: 1;
+    grid-column: 1; 
+     /* display: flex; */
+     float: right; 
+    padding: 10px;
+    width: 50%;
+     margin-left: 10px;
+    
+}
+
+.newsletter{
+    grid-row: 1;
+    grid-column: 2;
+
+    width:50%;
+    /* display: 50%; */
+}
+
+ .info div{
+    /* width: 8%; */
+    /* margin: 10px; */
+    padding: 10px;
+    /* display: grid; */
+    /* margin-left: 20px; */
+    /* box-sizing: border-box; */
+    /* width: 100%; */
+} 
